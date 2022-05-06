@@ -1,0 +1,6 @@
+.container {
+    border: 2px solid white;
+    border-radius: 100%;
+    transform-style: preserve-3d;
+    transform: rotateX(65deg) rotateZ(10deg);
+}

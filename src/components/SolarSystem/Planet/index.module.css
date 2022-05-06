@@ -1,0 +1,18 @@
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 7px solid white;
+    border-radius: 100%;
+    transform-style: preserve-3d;
+    animation: orbit linear infinite;
+}
+
+@keyframes orbit {
+    0% {
+        transform: translate(-50%, -50%) rotateZ(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotateZ(-360deg);
+    }
+}

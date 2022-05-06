@@ -1,0 +1,11 @@
+.sun {
+    width: 15em;
+    height: 15em;
+    background-color: yellow;
+    box-shadow: 0 0 30px yellow;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotateX(100deg);
+}

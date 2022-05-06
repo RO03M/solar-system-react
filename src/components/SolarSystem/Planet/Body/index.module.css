@@ -1,0 +1,34 @@
+.container {
+    position: absolute;
+    bottom: 50%;
+    z-index: 999;
+    border-radius: 100%;
+    transform-style: preserve-3d;
+    animation: orbitCorrection 15s linear infinite;
+}
+
+@keyframes orbitCorrection {
+    0% {
+        transform: translate(-50%, -50%) rotateX(-90deg) rotateY(360deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotateX(-90deg) rotateY(0deg);
+    }
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-size: cover;
+    background-position-x: left;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    from {
+        background-position-x: 200%;
+    } to {
+        background-position-x: 0%;
+    }
+}
