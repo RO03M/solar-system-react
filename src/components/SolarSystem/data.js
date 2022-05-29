@@ -81,3 +81,78 @@ export const toScalePlanets = [
         rotationTime: .7
     },
 ];
+
+export const outScalePlanets = [
+    {
+        name: "mercury",
+        size: .376,
+        color: "brown",
+        distance: .25,
+        year: .1,
+        image: mercury,
+        rotationTime: 58
+    },
+    {
+        name: "venus",
+        size: .949,
+        color: "orange",
+        distance: .3,
+        year: .2,
+        image: venus,
+        rotationTime: 243
+    },
+    {
+        name: "earth",
+        color: "blue",
+        image: earth,
+        size: 1,
+        distance: .4,
+        year: .4,
+        rotationTime: 1
+    },
+    {
+        name: "mars",
+        color: "red",
+        size: .533,
+        distance: .45,
+        year: .7,
+        image: mars,
+        rotationTime: 1.1
+    },
+    {
+        name: "jupiter",
+        color: "brown",
+        size: 11.2,
+        distance: .6,
+        year: .4,
+        image: jupiter,
+        rotationTime: .41
+    },
+    {
+        name: "saturn",
+        color: "brown",
+        size: 9.46,
+        distance: .75,
+        year: .5,
+        image: saturn,
+        rotationTime: .5
+    },
+    {
+        name: "uranus",
+        color: "lightblue",
+        size: 4,
+        distance: 1,
+        year: .2,
+        image: uranus,
+        rotationTime: .75
+    },
+    {
+        name: "neptune",
+        color: "darkblue",
+        size: 3.88,
+        distance: 1.1,
+        year: .4,
+        image: neptune,
+        rotationTime: .7
+    },
+];
