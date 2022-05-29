@@ -122,7 +122,7 @@ export const outScalePlanets = [
     {
         name: "jupiter",
         color: "brown",
-        size: 11.2,
+        size: 5.2,
         distance: .6,
         year: .4,
         image: jupiter,
@@ -131,16 +131,17 @@ export const outScalePlanets = [
     {
         name: "saturn",
         color: "brown",
-        size: 9.46,
+        size: 3.46,
         distance: .75,
         year: .5,
         image: saturn,
-        rotationTime: .5
+        rotationTime: .5,
+        ring: true
     },
     {
         name: "uranus",
         color: "lightblue",
-        size: 4,
+        size: 2,
         distance: 1,
         year: .2,
         image: uranus,
@@ -149,7 +150,7 @@ export const outScalePlanets = [
     {
         name: "neptune",
         color: "darkblue",
-        size: 3.88,
+        size: 1.95,
         distance: 1.1,
         year: .4,
         image: neptune,

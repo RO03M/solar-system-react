@@ -17,6 +17,7 @@ const Planet = props => {
         year = 1,
         image = "",
         color = "red",
+        ring,
         ...others
     } = props;
 
@@ -32,6 +33,7 @@ const Planet = props => {
             <Body
                 rotationTime={rotationTime}
                 image={image}
+                ring={ring}
                 style={{
                     width: planetSize?.w,
                     height: planetSize?.h,

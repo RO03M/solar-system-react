@@ -23,6 +23,7 @@ const SolarSystem = () => {
                     image={planet?.image}
                     color={planet?.color}
                     rotationTime={planet?.rotationTime * 5}
+                    ring={planet?.ring}
                 />
             ))}
             <Sun/>

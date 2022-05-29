@@ -1,10 +1,12 @@
 import styles from "./index.module.css";
+import Ring from "./Ring";
 
 const Body = props => {
 
     const {
         image,
         rotationTime,
+        ring,
         ...others
     } = props;
 
@@ -20,6 +22,9 @@ const Body = props => {
                     animationDuration: `${rotationTime}s`
                 }}
             />
+            {ring && (
+                <Ring/>
+            )}
         </div>
     );
 }
